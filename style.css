@@ -18,7 +18,11 @@ margin: 5px;
     align-items: center;
     justify-content: space-around;
     border-radius: 20px;
-    box-shadow: 25px 5px 25px black
+    box-shadow: 25px 5px 25px black;
+    transition-delay: 0.5s;
+}
+.card:hover {
+    animation: 2s linear 1s infinite alternate slidein;
 }
 #card-title {
 font-family: cursive;
