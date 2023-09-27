@@ -5,6 +5,7 @@ html,
     box-sizing: border-box;
     margin: 20;
     padding: 20;
+    
 }
 
 .card {
@@ -21,9 +22,17 @@ margin: 5px;
     box-shadow: 25px 5px 25px black;
     transition-delay: 0.5s;
 }
-.card:hover {
-    animation: 2s linear 1s infinite alternate slidein;
-}
+
+#Alligator{
+    font-family: cursive;
+    font-size: 2.5rem;
+    margin:0.5rem 0;
+    text-transform: uppercase;
+
+    }
+    #Alligator:hover {
+transform: scale(1.1);
+    }
 #card-title {
 font-family: cursive;
 font-size: 2.5rem;
