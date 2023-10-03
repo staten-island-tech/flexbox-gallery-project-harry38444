@@ -89,7 +89,7 @@ width:100%;
 
 .column {
     display:flex;
-    width: 90%;
+    width: 80%;
     height: 80%;
     flex-wrap:wrap;
 
@@ -97,15 +97,17 @@ width:100%;
     margin: 10rem auto;
 }
 
-@media screen and (max-width: 812px) {
-    .card {
-        width:25%
+@media screen and (max-width: 1000px) {
+    .card{
+        width: 40%;
     }
+
 }
-@media screen and (min-width: 212px) {
+@media screen and (max-width: 813px) {
     .card {
-        width:25%
+        width: 90%;
     }
+
 }
 
 @keyframes pulse {
